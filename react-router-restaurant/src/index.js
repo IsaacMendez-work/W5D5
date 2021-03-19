@@ -6,6 +6,8 @@ import {
   Route,
   Link
 } from 'react-router-dom';
+
+
 class Home extends Component {
   render(){
     return(
@@ -17,7 +19,8 @@ class Home extends Component {
     );
   }
 }
-// About component
+
+
 class About extends Component {
   render(){
     return(
@@ -29,7 +32,8 @@ class About extends Component {
     );
   }
 }
-// Menu component
+
+
 class Menu extends Component {
   render(){
     return(
@@ -46,6 +50,8 @@ class Menu extends Component {
     );
   }
 }
+
+
 class Navbar extends Component {
   render(){
     return(
@@ -57,6 +63,8 @@ class Navbar extends Component {
     );
   }
 }
+
+
 class Routes extends Component {
   render(){
     return(
